@@ -1,6 +1,8 @@
-import dto.ProductoDTO;
-import interfaces.IProducto;
-import service.ProductoServiceImpl;
+package ejemplo1;
+
+import ejemplo1.dto.ProductoDTO;
+import ejemplo1.interfaces.IProducto;
+import ejemplo1.service.ProductoServiceImpl;
 
 import java.io.IOException;
 import java.util.List;

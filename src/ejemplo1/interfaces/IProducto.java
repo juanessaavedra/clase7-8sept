@@ -1,6 +1,6 @@
-package interfaces;
+package ejemplo1.interfaces;
 
-import dto.ProductoDTO;
+import ejemplo1.dto.ProductoDTO;
 
 import java.io.IOException;
 import java.util.List;

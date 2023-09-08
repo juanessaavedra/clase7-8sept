@@ -1,8 +1,8 @@
-package service;
+package ejemplo1.service;
 
 
-import dto.ProductoDTO;
-import interfaces.IProducto;
+import ejemplo1.dto.ProductoDTO;
+import ejemplo1.interfaces.IProducto;
 
 import java.io.IOException;
 import java.util.ArrayList;
