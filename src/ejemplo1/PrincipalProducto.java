@@ -16,7 +16,7 @@ public class PrincipalProducto {
             Scanner s = new Scanner(System.in);
             System.out.print("Menu \n 1. Agregar  \n 2. Listar \n 3. Editar " +
                     "\n 4. Eliminar  \n 5. Salir \n =>");
-            opc = s.next();
+            opc = s.next(); //next es para recibir string nextInt es para enteros
             switch (opc) {
                 case "1": {
                     System.out.println("Id producto: ");
@@ -32,8 +32,8 @@ public class PrincipalProducto {
                 }
                 case "2": {
                     List<ProductoDTO> productos = repo.findAll();
-                    if(!productos.isEmpty()){
-                        productos.forEach(System.out::println);
+                    if(!productos.isEmpty()){ //isEmpty es para
+                        productos.forEach(System.out::println); //Los recorre porque ya los recibio
                     }else{
                         System.out.println("No hay registros");
                     }
